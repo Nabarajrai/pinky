@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    box-sizing: border-box;
+    position: relative;
+    height: 100vh;
+}
+html{
+    font-size: 90%;
+}
+.container{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+.wrapper{
+  position: absolute;
+  top: 2%;
+  left: 35%;
+  transform: translate(-50%,-50);
+}
+.input-box{
+    width: 100%;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
